@@ -43,7 +43,7 @@ data4 = { 'x': df_for_plot.TIMESTAMP,
 		'mode': 'lines', 
 		'line': { 'width': 1, 'color': 'green' },
 		'name': 'SMA 10 periods'}
-data = [data1, data2, data3, data4]
+data = [data1,  data3, data4]
 fig = go.Figure(data=data)
 
 #update figure layout

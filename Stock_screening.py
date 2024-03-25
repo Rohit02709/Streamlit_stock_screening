@@ -18,7 +18,6 @@ elif select_type == 'CN100':
 
 #Simple Moving average calculation
 df_for_plot = df.loc[(df['SYMBOL'] == select) & (df['SERIES'] == 'EQ')]
-#df_for_plot['SMA44'] = df_for_plot['CLOSE'].rolling(44).mean()
 df_for_plot['SMA10'] = df_for_plot['CLOSE'].rolling(10).mean()
 df_for_plot['SMA20'] = df_for_plot['CLOSE'].rolling(20).mean()
 

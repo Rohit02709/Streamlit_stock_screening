@@ -29,13 +29,7 @@ data1 = { 'x': df_for_plot.TIMESTAMP,
 		'low': df_for_plot.LOW, 
 		'type': 'candlestick',}
 		
-data2 = { 'x': df_for_plot.TIMESTAMP, 
-		'y': df_for_plot.SMA44, 
-		'type': 'scatter', 
-		'mode': 'lines', 
-		'line': { 'width': 1, 'color': 'blue' },
-		'name': 'SMA 44'}
-		
+	
 data3 = { 'x': df_for_plot.TIMESTAMP, 
 		'y': df_for_plot.SMA20, 
 		'type': 'scatter', 
